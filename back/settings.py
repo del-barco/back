@@ -173,7 +173,7 @@ WSGI_APPLICATION = 'back.wsgi.application'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://stockdelbarco.up.railway.app/"]
 
 #Gmail SMTP (solo en produccion)
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
