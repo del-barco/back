@@ -9,7 +9,7 @@ urlpatterns = [
     path('profile/', TestAuthenticationView.as_view(), name='granted'),
     path('user-details/', UserDetailsAPIView.as_view(), name='user-details'),
     path('password-reset/', PasswordResetRequestView.as_view(), name='password-reset'),
-    path('api/password-reset-confirm/<str:uidb64>/<str:token>/', PasswordResetConfirm.as_view(), name='password-reset-confirm'),
+    path('password-reset-confirm/<str:uidb64>/<str:token>/', PasswordResetConfirm.as_view(), name='password-reset-confirm'),
     path('change-password/', SetNewPassword.as_view(), name='change-password'),
     path('logout/', LogoutUserView.as_view(), name='logout'),
 ]
