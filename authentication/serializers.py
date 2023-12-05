@@ -87,7 +87,7 @@ class PasswordResetRequestSerializer(serializers.Serializer):
             token = PasswordResetTokenGenerator().make_token(user)
             request = self.context.get('request')
             site_domain = get_current_site(request).domain
-            frontend_url = 'https://back-delbarco.up.railway.app/password-reset-confirm/{uidb64}/{token}'
+            frontend_url = 'https://back-delbarco.up.railway.app/api/password-reset-confirm/{uidb64}/{token}'
             abslink = frontend_url.format(uidb64=uidb64, token=token)
 
             # Renderizar el cuerpo del correo electrónico como HTML
