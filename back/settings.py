@@ -176,12 +176,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
 
 #Gmail SMTP (solo en produccion)
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
 EMAIL_USE_TLS=True
-EMAIL_HOST_USER = 'gestiondelbarco@gmail.com'
-EMAIL_HOST_PASSWORD = 'karh tnnd smyo cphl'
+EMAIL_HOST_USER='gestiondelbarco@gmail.com'
+EMAIL_HOST_PASSWORD='karh tnnd smyo cphl'
 
 #Mailtrap SMTP (solo en dev) 
 # EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
