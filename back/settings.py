@@ -183,7 +183,7 @@ EMAIL_USE_TLS=True
 EMAIL_HOST_USER = 'gestiondelbarco@gmail.com'
 EMAIL_HOST_PASSWORD = 'karh tnnd smyo cphl'
 
-#Mailtrap SMTP (solo en dev)
+#Mailtrap SMTP (solo en dev) 
 # EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 # EMAIL_HOST_USER = '6e56e6d9ebed7d'
 # EMAIL_HOST_PASSWORD = '664993ddbda9a7'
